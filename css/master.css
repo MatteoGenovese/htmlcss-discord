@@ -1,0 +1,155 @@
+/* ---------------------------------------- RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+hr{
+    color: gray;
+}
+
+
+/* ---------------------------------------- HEADER */
+.header-mid ul li{
+    list-style: none;
+    display: inline;
+}
+.header-mid li a{
+    color: white;
+    text-decoration: none;
+}
+header{
+}
+.header-sx,
+.header-mid,
+.header-dx{
+    padding: 10px;
+    align-items: center;
+}
+
+.header-mid li a:hover{
+    color: white;
+}
+.header-sx{
+    width: 20%;
+}
+.header-mid{
+    width: 60%;
+    text-align: center;
+}
+.header-div{
+    background-color: #355DE0;
+    margin: 0 auto;
+}
+.fuchsia-centered-box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+.header-dx{
+    width: 20%;
+    text-align: right;
+}
+.box-sub-container{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+/* ---------------------------------------- BUTTON */
+.button{
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+}
+.put-beside{
+    display: inline-block;
+}
+.action-download:before{
+    content: ' \2193';
+    color: black;
+}
+/* ---------------------------------------- MAIN */
+.box-odds{
+    background-color:white;
+    padding: 10px;
+}
+.box-even{
+    background-color:#F5F5F5;
+    padding: 10px;
+}
+.light-blue-box{
+    flex-basis: 70%;
+    height: 300px;
+    background-color: blue;
+}
+.text-area{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+.text-area h1{
+    color: black;
+}
+.green-centered-box{
+    background-color: green;
+    height: 300px;
+    margin: auto;
+}
+.box-odds .container{
+    justify-content: flex-start;
+}
+.box-even .container{
+    justify-content: flex-end;
+}
+/* ---------------------------------------- FOOTER */
+
+.black-box{
+    background-color:black;
+    padding: 10px;
+}
+.pink-smaller-box{
+    width: 33%;
+    height: 300px;
+    background-color: pink;
+}
+.sub-container{
+    display: flex;
+    width: 67%;
+}
+.acquamarine-box{
+    background-color: aquamarine;
+    border: 1px dotted;
+    height: 300px;
+    width: 25%;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+}
+.footer-sub-container{
+    display: flex;
+    height: 100px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+.little-pink-footer-box{
+
+    background-color: pink;
+    padding: 10px;
+}
